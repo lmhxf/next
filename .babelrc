@@ -1,0 +1,31 @@
+{
+  "presets": [
+    "next/babel",
+    "@zeit/next-typescript/babel"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": true,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@components": "./components",
+          "@utils": "./public/utils",
+          "@static": "./static"
+        }
+      }
+    ],
+    "transform-class-properties",
+    "syntax-dynamic-import"
+  ]
+}
+

@@ -1,0 +1,11 @@
+.header .am-search {
+    background-color: #fff;
+    width: 100%;
+}
+.header .am-search-input {
+    border: 0.025rem solid #09c762;
+}
+
+.header .am-search-input input[type=search] {
+    /*font-size: 0.4rem;*/
+}

@@ -1,0 +1,39 @@
+{
+  "root": true,
+  "globals": {
+    "wx": true,
+    "flex": true
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": ["babel"],
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "eqeqeq": ["off"],
+    "jsx-a11y/accessible-emoji": [0],
+    "semi": ["warn", "never"],
+    "react/default-props-match-prop-types": [1],
+    "react/destructuring-assignment": [0, "always"],
+    "react/boolean-prop-naming": ["error", { "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+" }],
+    "no-mixed-operators": 0
+  }
+}
+
