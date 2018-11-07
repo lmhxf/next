@@ -1,11 +1,16 @@
-.header .am-search {
-    background-color: #fff;
-    width: 100%;
-}
-.header .am-search-input {
-    border: 0.025rem solid #09c762;
+.header .ant-btn-primary{
+    background-color: #09c762;
+    border-color: #09c762;
 }
 
-.header .am-search-input input[type=search] {
-    /*font-size: 0.4rem;*/
+.header .ant-btn-primary:focus,
+.header .ant-btn-primary:hover {
+    opacity: 0.8;
+    background-color: #09c762;
+    border-color: #09c762;
+}
+
+.header .ant-input:focus, .ant-input:hover,
+.header .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+    border-color: #09c762;
 }

@@ -17,7 +17,7 @@
   },
   "parser": "babel-eslint",
   "plugins": ["babel"],
-  "extends": "airbnb",
+  "extends": "react-app",
   "parserOptions": {
     "ecmaVersion": 6,
     "ecmaFeatures": {
@@ -33,7 +33,9 @@
     "react/default-props-match-prop-types": [1],
     "react/destructuring-assignment": [0, "always"],
     "react/boolean-prop-naming": ["error", { "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+" }],
-    "no-mixed-operators": 0
+    "no-mixed-operators": 0,
+    "array-callback-return": 0,
+    "radix": 0
   }
 }
 

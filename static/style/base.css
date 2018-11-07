@@ -1,5 +1,4 @@
 html, body { width: 100%; height: 100%; }
-html { font-size: 125%; }
 body {
     margin: 0;
     background-color: #fff !important;
@@ -9,7 +8,6 @@ body {
 input {background-color: transparent;}
 #root{
     height:100%;
-    font-size: 0.6rem;
     color: #000;
 }
 #root > div { height: 100%; }
@@ -19,29 +17,10 @@ input {background-color: transparent;}
 }
 .main{
     height: 100%;
-    padding-top: 2.7rem;
-    padding-bottom: 2.7rem;
     overflow-y: auto;
     overflow-scrolling: touch;
     -webkit-overflow-scrolling: touch;
 }
-
-@media only screen and (min-width: 320px) { html { font-size: 106.66666667% !important; } }
-@media only screen and (min-width: 360px) { html { font-size: 120% !important; } }
-@media only screen and (min-width: 375px) { html { font-size: 125% !important; } }
-@media only screen and (min-width: 414px) { html { font-size: 138% !important; } }
-@media only screen and (min-width: 480px) { html { font-size: 160% !important; } }
-@media only screen and (min-width: 560px) { html { font-size: 186.66667% !important; } }
-@media only screen and (min-width: 640px) { html { font-size: 213.33333% !important; } }
-@media only screen and (min-width: 768px) { html { font-size: 256% !important; } }
-@media only screen and (min-width: 1024px) { html { font-size: 341.33333% !important; } }
-@media only screen and (min-width: 1080px) { html { font-size: 360% !important; } }
-@media only screen and (min-width: 1200px) { html { font-size: 400% !important; } }
-@media only screen and (min-width: 1280px) { html { font-size: 426.66667% !important; } }
-@media only screen and (min-width: 1366px) { html { font-size: 455.33333% !important; } }
-@media only screen and (min-width: 1440px) { html { font-size: 480% !important; } }
-@media only screen and (min-width: 1920px) { html { font-size: 640% !important; } }
-
 a, a:hover { text-decoration: none; }
 button, p, ul, ol, dl, dt, dd, h1, h2, h3, h4, h5, input { margin: 0; padding: 0; }
 div, ul, li, span, input, textarea { box-sizing: border-box; }

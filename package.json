@@ -1,18 +1,23 @@
 {
-  "name": "svwcop-ssr",
-  "version": "1.0.0",
-  "description": "svwcop ssr",
+  "name": "defend",
+  "version": "1.1.0",
+  "description": "defend ssr",
   "main": "index.js",
-  "author": "svwcop",
+  "author": "李明花",
   "license": "ISC",
   "dependencies": {
     "next": "^6.1.2",
     "react": "^16.5.0",
-    "react-dom": "^16.5.0"
+    "react-dom": "^16.5.0",
+    "react-lazy-load": "^3.0.13",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "@zeit/next-less": "^0.3.0",
     "@zeit/next-typescript": "^1.1.0",
+    "antd": "^3.10.4",
+    "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
     "babel-helper-get-function-arity": "^6.24.1",
@@ -24,8 +29,15 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-traverse": "^6.26.0",
     "eslint": "^5.5.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.4.0",
     "eslint-plugin-babel": "^5.2.0",
-    "less": "^3.8.1"
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
   },
   "scripts": {
     "dev": "NODE_ENV=qa next",
