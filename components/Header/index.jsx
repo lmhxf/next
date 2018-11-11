@@ -57,7 +57,7 @@ export default class Header extends PureComponent {
         </Row>
         <Row className={headerLess.nav}  type="flex" align='middle' justify='start'>
           <Col offset={2} span={2}>
-            <Link href='/atomization' rel="nofollow">全部商品分类</Link>
+            <Link href='/home' rel="nofollow">全部商品分类</Link>
           </Col>
           <Col className={headerLess.active} span={2}>
             <Link href='/home'>首页</Link>
