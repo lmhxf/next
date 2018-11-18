@@ -1,15 +1,17 @@
 import React, {PureComponent} from 'react'
 import {Row, Col, Input} from 'antd'
 import Link from 'next/link'
+import { withRouter } from 'next/router'
 import headerLess from  './header.less'
 
 const Search = Input.Search
 
+@withRouter
 export default class Header extends PureComponent {
   constructor (props) {
     super(props)
     this.state = {
-      searchVal: ''
+      searchVal: '',
     }
     this.handleSearch = this.handleSearch.bind(this)
   }
@@ -22,6 +24,7 @@ export default class Header extends PureComponent {
     console.log(this.state.searchVal)
   }
   render() {
+    const pathname = this.props.router.pathname
     return (
       <div className="header">
         <Row className={headerLess.header} type="flex" align='middle' justify="start">
@@ -56,23 +59,23 @@ export default class Header extends PureComponent {
           </Col>
         </Row>
         <Row className={headerLess.nav}  type="flex" align='middle' justify='start'>
-          <Col offset={2} span={2}>
-            <Link href='/home' rel="nofollow">全部商品分类</Link>
+          {/*<Col offset={2} span={2}>*/}
+            {/*<Link href='/home' rel="nofollow">全部商品分类</Link>*/}
+          {/*</Col>*/}
+          <Col className={pathname === '/home' ? headerLess.active : ''} span={2}>
+            <Link href='/home'><a href="/home">首页</a></Link>
           </Col>
-          <Col className={headerLess.active} span={2}>
-            <Link href='/home'>首页</Link>
+          <Col className={pathname === '/carries' ? headerLess.active : ''} span={2}>
+            <Link href='/carries'><a href="/carries">随身电棍</a></Link>
           </Col>
-          <Col span={2}>
-            <Link href='/carries' rel="nofollow">随身电棍</Link>
+          <Col className={pathname === '/long' ? headerLess.active : ''} span={2}>
+            <Link href='/long'><a href="/long">加长电棍</a></Link>
           </Col>
-          <Col span={2}>
-            <Link href='/long' rel="nofollow">加长电棍</Link>
+          <Col className={pathname === '/female' ? headerLess.active : ''}  span={2}>
+            <Link href='/female'><a href="/female">女子防身</a></Link>
           </Col>
-          <Col span={2}>
-            <Link href='/female' rel="nofollow">女子防身</Link>
-          </Col>
-          <Col span={2}>
-            <Link href='/atomization' rel="nofollow">防身喷雾</Link>
+          <Col className={pathname === '/atomization' ? headerLess.active : ''} span={2}>
+            <Link href='/atomization'><a href="/atomization">防身喷雾</a></Link>
           </Col>
         </Row>
       </div>

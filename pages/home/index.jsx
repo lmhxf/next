@@ -22,7 +22,7 @@ export default class Home extends PureComponent {
         <h2 className={less.title}>今天推荐了哪些精品？</h2>
         <ul className={less.recommendCard}>
           {recommend && recommend.data.map((item, index) => (
-            <Link key={item.id} href={`/goods/${item.prod}`}>
+            <Link key={item.id} href={`/goods?goodId=${item.prod}`}>
               <li className={`${less.recommendCard_item} ${index%2 ? less.noMargin : ''}`}>
                 <div className={less.recommendCard_img}>
                   <img src={`../../static/img/goods/${item.imgFile}/${item.id}.jpg`} alt={item.name} />

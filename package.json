@@ -40,8 +40,8 @@
     "less-loader": "^4.1.0"
   },
   "scripts": {
-    "dev": "NODE_ENV=qa next",
+    "dev": "set NODE_ENV=qa && next",
     "build": "next build",
-    "start": "NODE_ENV=production next start"
+    "start": "set NODE_ENV=production && next start"
   }
 }

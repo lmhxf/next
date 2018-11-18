@@ -17,7 +17,7 @@ export default class Home extends PureComponent {
     return goodsRel.map(good => (
       <div className={less.goodCard}>
         {good.data.map((item, index) => (
-          <Link key={item.prod} href={`/goods/${item.prod}`}>
+          <Link key={item.prod} href={`/goods/?goodId=${item.prod}`}>
             <Card
               className={`${less.card} ${index%3 ? '' : less.noBorder}`}
               cover={
@@ -44,11 +44,11 @@ export default class Home extends PureComponent {
     return (
       <Layout>
         <Header />
-        <div className={less.breadcrumb}>
+        <div className='breadcrumb'>
           <Link href='/home'>首页 > </Link>
           <Link href='/carries'>随身电棍</Link>
         </div>
-        <Layout className={less.container}>
+        <Layout className='container'>
           <Sider className={less.sider}>
             <h3>随身电棍</h3>
           </Sider>

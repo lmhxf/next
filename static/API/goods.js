@@ -2,8 +2,28 @@ export const goods = [
   {
     type: 'recommend',
     data: [
-      {id: '01', prod: '68', imgFile: 'recommend/01', name: '新款1315超高压航空合金电击棍', price: '340'},
-      {id: '02', prod: '90', imgFile: 'recommend/02', name: '新款金刚狼牙007高压电棍', price: '300'},
+      {
+        id: '01', prod: '68', imgFile: 'recommend/01', name: '新款1315超高压航空合金电击棍', price: '340',
+        detail: {
+          banner: ['recommend/01/banner1', 'recommend/01/banner2'],
+          goodId: '1315', // 型号
+          goodImg: 'recommend/01/1315',
+          buyPrice:'510',   //市场价
+          cash: 9999,   // 库存
+          detailImg: ['recommend/01/1315-1', 'recommend/01/1315-2', 'recommend/01/1315-3', 'recommend/01/1315-4', 'recommend/01/1315-5']
+        }
+      },
+      {
+        id: '02', prod: '90', imgFile: 'recommend/02', name: '新款金刚狼牙007高压电棍', price: '240',
+        detail: {
+          banner: ['recommend/02/banner1', 'recommend/02/banner2'],
+          goodId: '8810',
+          goodImg: 'recommend/02/8810',
+          buyPrice: '360',
+          cash: 9999,
+          detailImg: ['recommend/02/8810-1', 'recommend/02/8810-2', 'recommend/02/8810-3', 'recommend/02/8810-4', 'recommend/02/8810-5']
+        }
+      },
       {id: '03', prod: '91', imgFile: 'recommend/03', name: '8810可调强光高压电击棍', price: '240'},
       {id: '04', prod: '89', imgFile: 'recommend/04', name: '泰瑟远程电击器（5米）', price: '450'},
     ]
