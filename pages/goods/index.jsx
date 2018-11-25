@@ -18,7 +18,12 @@ export default class Goods extends PureComponent {
         }
       })
     })
+    console.log(this.goodSource, goodId)
     this.pay = this.pay.bind(this)
+  }
+
+  componentDidMount() {
+
   }
 
   pay() {
@@ -85,13 +90,13 @@ export default class Goods extends PureComponent {
           <Link href='/home'>首页 > </Link>
           <Link href='/long'>加长电棍</Link>
         </div>
-        <Layout className='container'>
+        {this.goodSource && (<Layout className='container'>
           <Row type='flex' align='start'>
             <Col><GoodBanner /></Col>
             <Col>{this.renderGoodInfo()}</Col>
           </Row>
           {this.renderDetail()}
-        </Layout>
+        </Layout>)}
         <Footer />
       </Layout>
     )
