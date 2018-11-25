@@ -60,7 +60,7 @@ export default class Goods extends PureComponent {
         <div className={less.detailImg}>
           {this.goodSource.detail.detailImg.map(item => (
             <Row key={item} align='center' justify='middle' type='flex'>
-              <img src={`../../static/img/goods/${item}.jpg`} alt={item} />
+              <img src={`../../static/img/goods/${item.indexOf('.') > -1 ? item : `${item}.jpg`}`} alt={item} />
             </Row>
           ))}
         </div>

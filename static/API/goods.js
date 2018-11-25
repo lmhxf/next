@@ -14,23 +14,53 @@ export const goods = [
         }
       },
       {
-        id: '02', prod: '90', imgFile: 'recommend/02', name: '新款金刚狼牙007高压电棍', price: '240',
+        id: '02', prod: '91', imgFile: 'recommend/02', name: '新款金刚狼牙007高压电棍', price: '300',
         detail: {
-          banner: ['recommend/02/banner1', 'recommend/02/banner2'],
-          goodId: '8810',
-          goodImg: 'recommend/02/8810',
+          banner: ['recommend/02/banner1', 'recommend/02/banner2', 'recommend/02/banner3', 'recommend/02/banner4', 'recommend/02/banner5'],
+          goodId: '07',
+          goodImg: 'recommend/02/007',
           buyPrice: '360',
           cash: 9999,
-          detailImg: ['recommend/02/8810-1', 'recommend/02/8810-2', 'recommend/02/8810-3', 'recommend/02/8810-4', 'recommend/02/8810-5']
+          detailImg: ['recommend/02/007-01', 'recommend/02/007-02', 'recommend/02/007-03']
         }
       },
-      {id: '03', prod: '91', imgFile: 'recommend/03', name: '8810可调强光高压电击棍', price: '240'},
-      {id: '04', prod: '89', imgFile: 'recommend/04', name: '泰瑟远程电击器（5米）', price: '450'},
+      {
+        id: '03', prod: '90', imgFile: 'recommend/03', name: '8810可调强光高压电击棍', price: '240',
+        detail: {
+          banner: ['recommend/03/banner1', 'recommend/03/banner2'],
+          goodId: '8810',
+          goodImg: 'recommend/03/8810',
+          buyPrice: '360',
+          cash: 9999,
+          detailImg: ['recommend/03/8810-1', 'recommend/03/8810-2', 'recommend/03/8810-3', 'recommend/03/8810-4', 'recommend/03/8810-5']
+        }
+      },
+      {
+        id: '04', prod: '89', imgFile: 'recommend/04', name: '泰瑟远程电击器（5米）', price: '450',
+        detail: {
+          banner: ['recommend/04/banner1', 'recommend/04/banner2'],
+          goodId: 'yc',
+          goodImg: 'recommend/04/yc',
+          buyPrice: '675',
+          cash: 9999,
+          detailImg: ['recommend/04/yc-01', 'recommend/04/yc-02', 'recommend/04/yc-03', 'recommend/04/yc-04', 'recommend/04/yc-05.gif']
+        }
+      },
     ]
   },{
     type: 'carries',
     data: [
-      {id: '01', prod: '82', imgFile: 'carries/01', name: 'X5强光钛合金高压电击棍', price: '280'},
+      {
+        id: '01', prod: '82', imgFile: 'carries/01', name: 'X5强光钛合金高压电击棍', price: '280',
+        detail: {
+          banner: ['recommend/04/banner1', 'recommend/04/banner2'],
+          goodId: 'yc',
+          goodImg: 'recommend/04/yc',
+          buyPrice: '675',
+          cash: 9999,
+          detailImg: ['recommend/04/yc-01', 'recommend/04/yc-02', 'recommend/04/yc-03', 'recommend/04/yc-04', 'recommend/04/yc-05.gif']
+        }
+      },
       {id: '02', prod: '93', imgFile: 'carries/02', name: '特战反恐高压迷你电击棍', price: '280'},
       {id: '03', prod: '87', imgFile: 'carries/03', name: '1128掌中宝高压电击器', price: '220'},
       {id: '04', prod: '80', imgFile: 'carries/04', name: '大飞鹰尖刺头高压电击器', price: '320'},
