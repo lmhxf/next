@@ -128,6 +128,83 @@ export const goods = [
           detailImg: ['carries/01/x5-01', 'carries/01/x5-02', 'carries/01/x5-03', 'carries/01/x5-04', 'carries/01/x5-05', 'carries/01/x5-06']
         }
       },
+      {
+        id: '08', prod: '85', imgFile: 'carries/08', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/08/banner1', 'carries/08/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/08/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/08/x5-01', 'carries/08/x5-02', 'carries/08/x5-03', 'carries/08/x5-04', 'carries/08/x5-05', 'carries/08/x5-06']
+        }
+      },
+      {
+        id: '09', prod: '85', imgFile: 'carries/09', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/09/banner1', 'carries/09/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/09/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/09/x5-01', 'carries/09/x5-02', 'carries/09/x5-03', 'carries/09/x5-04', 'carries/09/x5-05', 'carries/09/x5-06']
+        }
+      },
+      {
+        id: '10', prod: '85', imgFile: 'carries/10', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/10/banner1', 'carries/10/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/10/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/10/x5-01', 'carries/10/x5-02', 'carries/10/x5-03', 'carries/10/x5-04', 'carries/10/x5-05', 'carries/10/x5-06']
+        }
+      },
+      {
+        id: '11', prod: '85', imgFile: 'carries/11', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/11/banner1', 'carries/11/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/11/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/11/x5-01', 'carries/11/x5-02', 'carries/11/x5-03', 'carries/11/x5-04', 'carries/11/x5-05', 'carries/11/x5-06']
+        }
+      },
+      {
+        id: '12', prod: '85', imgFile: 'carries/12', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/12/banner1', 'carries/12/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/12/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/12/x5-01', 'carries/12/x5-02', 'carries/12/x5-03', 'carries/12/x5-04', 'carries/12/x5-05', 'carries/12/x5-06']
+        }
+      },
+      {
+        id: '13', prod: '85', imgFile: 'carries/13', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/13/banner1', 'carries/13/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/13/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/13/x5-01', 'carries/13/x5-02', 'carries/13/x5-03', 'carries/13/x5-04', 'carries/13/x5-05', 'carries/13/x5-06']
+        }
+      },
+      {
+        id: '14', prod: '85', imgFile: 'carries/14', name: '928方形防滑高压电击器', price: '180',
+        detail: {
+          banner: ['carries/14/banner1', 'carries/14/banner2'],
+          goodId: 'X5',
+          goodImg: 'carries/14/x5',
+          buyPrice: '420',
+          cash: 9999,
+          detailImg: ['carries/14/x5-01', 'carries/14/x5-02', 'carries/14/x5-03', 'carries/14/x5-04', 'carries/14/x5-05', 'carries/14/x5-06']
+        }
+      },
     ]
   },
   {
@@ -292,6 +369,17 @@ export const goods = [
           detailImg: ['female/07/RY-01', 'female/07/RY-02']
         }
       },
+      {
+        id: '08', prod: '96', imgFile: 'female/08', name: '女士口红款防狼喷雾', price: '68',
+        detail: {
+          banner: ['female/08/banner1'],
+          goodId: 'khpw',
+          goodImg: 'female/08/khpw',
+          buyPrice: '102',
+          cash: 9999,
+          detailImg: ['female/08/khpw-01', 'female/08/khpw-02']
+        }
+      },
     ]
   },
   {
@@ -300,78 +388,133 @@ export const goods = [
       {
         id: '01', prod: '56', imgFile: 'atomization/01', name: '007红色闪电水柱喷射大容量防狼喷雾', price: '168',
         detail: {
-          banner: ['atomization/01/banner1', 'atomization/01/banner2', 'atomization/01/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/01/1118',
-          buyPrice: '450',
+          banner: ['atomization/01/banner1', 'atomization/01/banner2'],
+          goodId: '007',
+          goodImg: 'atomization/01/007',
+          buyPrice: '252',
           cash: 9999,
-          detailImg: ['atomization/01/1118-01', 'atomization/01/1118-02', 'atomization/01/1118-03', 'atomization/01/1118-04', 'atomization/01/1118-05', 'atomization/01/1118-06']
+          detailImg: ['atomization/01/007-01', 'atomization/01/007-02', 'atomization/01/007-03']
         }
       },
       {
         id: '02', prod: '94', imgFile: 'atomization/02', name: '警用超大容量防狼防暴喷雾', price: '108',
         detail: {
-          banner: ['atomization/02/banner1', 'atomization/02/banner2', 'atomization/02/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/02/1118',
-          buyPrice: '450',
+          banner: ['atomization/02/banner1'],
+          goodId: ' jypw',
+          goodImg: 'atomization/02/jypw',
+          buyPrice: '162',
           cash: 9999,
-          detailImg: ['atomization/02/1118-01', 'atomization/02/1118-02', 'atomization/02/1118-03', 'atomization/02/1118-04', 'atomization/02/1118-05', 'atomization/02/1118-06']
+          detailImg: ['atomization/02/jypw-01', 'atomization/02/jypw-02']
         }
       },
       {
         id: '03', prod: '64', imgFile: 'atomization/03', name: '大容量保安型防暴喷雾', price: '80',
         detail: {
-          banner: ['atomization/03/banner1', 'atomization/03/banner2', 'atomization/03/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/03/1118',
-          buyPrice: '450',
+          banner: ['atomization/03/banner1'],
+          goodId: 'bax',
+          goodImg: 'atomization/03/bax',
+          buyPrice: '96',
           cash: 9999,
-          detailImg: ['atomization/03/1118-01', 'atomization/03/1118-02', 'atomization/03/1118-03', 'atomization/03/1118-04', 'atomization/03/1118-05', 'atomization/03/1118-06']
+          detailImg: ['atomization/03/bax-01', 'atomization/03/bax-02']
         }
       },
       {
         id: '04', prod: '61', imgFile: 'atomization/04', name: '原装警用水柱型大容量防狼喷雾', price: '138',
         detail: {
-          banner: ['atomization/04/banner1', 'atomization/04/banner2', 'atomization/04/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/04/1118',
-          buyPrice: '450',
+          banner: ['atomization/04/banner1'],
+          goodId: '511',
+          goodImg: 'atomization/04/511',
+          buyPrice: '207',
           cash: 9999,
-          detailImg: ['atomization/04/1118-01', 'atomization/04/1118-02', 'atomization/04/1118-03', 'atomization/04/1118-04', 'atomization/04/1118-05', 'atomization/04/1118-06']
+          detailImg: ['atomization/04/511-01', 'atomization/04/511-02', 'atomization/04/511-03']
         }
       },
       {
         id: '05', prod: '59', imgFile: 'atomization/05', name: 'NATO进口款大容量防狼喷雾', price: '120',
         detail: {
-          banner: ['atomization/05/banner1', 'atomization/05/banner2', 'atomization/05/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/05/1118',
-          buyPrice: '450',
+          banner: ['atomization/05/banner1'],
+          goodId: 'NATO',
+          goodImg: 'atomization/05/NATO',
+          buyPrice: '144',
           cash: 9999,
-          detailImg: ['atomization/05/1118-01', 'atomization/05/1118-02', 'atomization/05/1118-03', 'atomization/05/1118-04', 'atomization/05/1118-05', 'atomization/05/1118-06']
+          detailImg: ['atomization/05/NATO-01', 'atomization/05/NATO-02']
         }
       },
       {
         id: '06', prod: '58', imgFile: 'atomization/06', name: '美国进口CSA大容量防狼喷雾', price: '150',
         detail: {
-          banner: ['atomization/06/banner1', 'atomization/06/banner2', 'atomization/06/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/06/1118',
-          buyPrice: '450',
+          banner: ['atomization/06/banner1'],
+          goodId: 'CSAA',
+          goodImg: 'atomization/06/CSAA',
+          buyPrice: '180',
           cash: 9999,
-          detailImg: ['atomization/06/1118-01', 'atomization/06/1118-02', 'atomization/06/1118-03', 'atomization/06/1118-04', 'atomization/06/1118-05', 'atomization/06/1118-06']
+          detailImg: ['atomization/06/CSAA-01', 'atomization/06/CSAA-02']
         }
       },
       {
         id: '07', prod: '69', imgFile: 'atomization/07', name: '进口迷你body防狼喷雾', price: '118',
         detail: {
-          banner: ['atomization/07/banner1', 'atomization/07/banner2', 'atomization/07/banner3'],
-          goodId: '1118',
-          goodImg: 'atomization/07/1118',
-          buyPrice: '450',
+          banner: ['atomization/07/banner1'],
+          goodId: 'bod',
+          goodImg: 'atomization/07/bod',
+          buyPrice: '177',
           cash: 9999,
-          detailImg: ['atomization/07/1118-01', 'atomization/07/1118-02', 'atomization/07/1118-03', 'atomization/07/1118-04', 'atomization/07/1118-05', 'atomization/07/1118-06']
+          detailImg: ['atomization/07/bod-01', 'atomization/07/bod-02']
+        }
+      },
+      {
+        id: '08', prod: '69', imgFile: 'atomization/08', name: '进口迷你body防狼喷雾', price: '118',
+        detail: {
+          banner: ['atomization/08/banner1'],
+          goodId: 'bod',
+          goodImg: 'atomization/08/bod',
+          buyPrice: '177',
+          cash: 9999,
+          detailImg: ['atomization/08/bod-01', 'atomization/08/bod-02']
+        }
+      },
+      {
+        id: '09', prod: '69', imgFile: 'atomization/09', name: '进口迷你body防狼喷雾', price: '118',
+        detail: {
+          banner: ['atomization/09/banner1'],
+          goodId: 'bod',
+          goodImg: 'atomization/09/bod',
+          buyPrice: '177',
+          cash: 9999,
+          detailImg: ['atomization/09/bod-01', 'atomization/09/bod-02']
+        }
+      },
+      {
+        id: '10', prod: '69', imgFile: 'atomization/10', name: '进口迷你body防狼喷雾', price: '118',
+        detail: {
+          banner: ['atomization/10/banner1'],
+          goodId: 'bod',
+          goodImg: 'atomization/10/bod',
+          buyPrice: '177',
+          cash: 9999,
+          detailImg: ['atomization/10/bod-01', 'atomization/10/bod-02']
+        }
+      },
+      {
+        id: '11', prod: '69', imgFile: 'atomization/11', name: '进口迷你body防狼喷雾', price: '118',
+        detail: {
+          banner: ['atomization/11/banner1'],
+          goodId: 'bod',
+          goodImg: 'atomization/11/bod',
+          buyPrice: '177',
+          cash: 9999,
+          detailImg: ['atomization/11/bod-01', 'atomization/11/bod-02']
+        }
+      },
+      {
+        id: '12', prod: '69', imgFile: 'atomization/12', name: '进口迷你body防狼喷雾', price: '118',
+        detail: {
+          banner: ['atomization/12/banner1'],
+          goodId: 'bod',
+          goodImg: 'atomization/12/bod',
+          buyPrice: '177',
+          cash: 9999,
+          detailImg: ['atomization/12/bod-01', 'atomization/12/bod-02']
         }
       },
     ]
