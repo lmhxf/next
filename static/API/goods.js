@@ -132,77 +132,77 @@ export const goods = [
         id: '08', prod: '85', imgFile: 'carries/08', name: '928方形防滑高压电击器', price: '180',
         detail: {
           banner: ['carries/08/banner1', 'carries/08/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/08/x5',
-          buyPrice: '420',
+          goodId: '928',
+          goodImg: 'carries/08/928',
+          buyPrice: '216',
           cash: 9999,
-          detailImg: ['carries/08/x5-01', 'carries/08/x5-02', 'carries/08/x5-03', 'carries/08/x5-04', 'carries/08/x5-05', 'carries/08/x5-06']
+          detailImg: ['carries/08/928-01', 'carries/08/928-02', 'carries/08/928-03', 'carries/08/928-04', 'carries/08/928-05']
         }
       },
       {
-        id: '09', prod: '85', imgFile: 'carries/09', name: '928方形防滑高压电击器', price: '180',
+        id: '09', prod: '68', imgFile: 'carries/09', name: '新款1315超高压航空合金电击棍', price: '340',
         detail: {
           banner: ['carries/09/banner1', 'carries/09/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/09/x5',
-          buyPrice: '420',
+          goodId: '1315',
+          goodImg: 'carries/09/1315',
+          buyPrice: '510',
           cash: 9999,
-          detailImg: ['carries/09/x5-01', 'carries/09/x5-02', 'carries/09/x5-03', 'carries/09/x5-04', 'carries/09/x5-05', 'carries/09/x5-06']
+          detailImg: ['carries/09/1315-01', 'carries/09/1315-02', 'carries/09/1315-03', 'carries/09/1315-04', 'carries/09/1315-05']
         }
       },
       {
-        id: '10', prod: '85', imgFile: 'carries/10', name: '928方形防滑高压电击器', price: '180',
+        id: '10', prod: '77', imgFile: 'carries/10', name: '新款6610强光高压电击棍', price: '280',
         detail: {
-          banner: ['carries/10/banner1', 'carries/10/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/10/x5',
-          buyPrice: '420',
+          banner: ['carries/10/banner1'],
+          goodId: '6610',
+          goodImg: 'carries/10/6610',
+          buyPrice: '336',
           cash: 9999,
-          detailImg: ['carries/10/x5-01', 'carries/10/x5-02', 'carries/10/x5-03', 'carries/10/x5-04', 'carries/10/x5-05', 'carries/10/x5-06']
+          detailImg: ['carries/10/6610-01', 'carries/10/6610-02', 'carries/10/6610-03', 'carries/10/6610-04', 'carries/10/6610-05', 'carries/10/6610-06']
         }
       },
       {
-        id: '11', prod: '85', imgFile: 'carries/11', name: '928方形防滑高压电击器', price: '180',
+        id: '11', prod: '78', imgFile: 'carries/11', name: 'T10强光高压电击棍', price: '240',
         detail: {
-          banner: ['carries/11/banner1', 'carries/11/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/11/x5',
-          buyPrice: '420',
+          banner: ['carries/11/banner1'],
+          goodId: 'T10',
+          goodImg: 'carries/11/t10',
+          buyPrice: '288',
           cash: 9999,
-          detailImg: ['carries/11/x5-01', 'carries/11/x5-02', 'carries/11/x5-03', 'carries/11/x5-04', 'carries/11/x5-05', 'carries/11/x5-06']
+          detailImg: ['carries/11/t10-01', 'carries/11/t10-02']
         }
       },
       {
-        id: '12', prod: '85', imgFile: 'carries/12', name: '928方形防滑高压电击器', price: '180',
+        id: '12', prod: '91', imgFile: 'carries/12', name: '新款金刚狼牙007高压电棍', price: '300',
         detail: {
-          banner: ['carries/12/banner1', 'carries/12/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/12/x5',
-          buyPrice: '420',
+          banner: ['recommend/02/banner1', 'recommend/02/banner2', 'recommend/02/banner3', 'recommend/02/banner4', 'recommend/02/banner5'],
+          goodId: '07',
+          goodImg: 'recommend/02/007',
+          buyPrice: '360',
           cash: 9999,
-          detailImg: ['carries/12/x5-01', 'carries/12/x5-02', 'carries/12/x5-03', 'carries/12/x5-04', 'carries/12/x5-05', 'carries/12/x5-06']
+          detailImg: ['recommend/02/007-01', 'recommend/02/007-02', 'recommend/02/007-03']
         }
       },
       {
-        id: '13', prod: '85', imgFile: 'carries/13', name: '928方形防滑高压电击器', price: '180',
+        id: '13', prod: '89', imgFile: 'carries/13', name: '泰瑟远程电击器（5米）', price: '450',
         detail: {
-          banner: ['carries/13/banner1', 'carries/13/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/13/x5',
-          buyPrice: '420',
+          banner: ['recommend/04/banner1', 'recommend/04/banner2'],
+          goodId: 'yc',
+          goodImg: 'recommend/04/yc',
+          buyPrice: '675',
           cash: 9999,
-          detailImg: ['carries/13/x5-01', 'carries/13/x5-02', 'carries/13/x5-03', 'carries/13/x5-04', 'carries/13/x5-05', 'carries/13/x5-06']
+          detailImg: ['recommend/04/yc-01', 'recommend/04/yc-02', 'recommend/04/yc-03', 'recommend/04/yc-04', 'recommend/04/yc-05.gif']
         }
       },
       {
-        id: '14', prod: '85', imgFile: 'carries/14', name: '928方形防滑高压电击器', price: '180',
+        id: '14', prod: '90', imgFile: 'carries/14', name: '8810可调强光高压电击棍', price: '240',
         detail: {
-          banner: ['carries/14/banner1', 'carries/14/banner2'],
-          goodId: 'X5',
-          goodImg: 'carries/14/x5',
-          buyPrice: '420',
+          banner: ['recommend/03/banner1', 'recommend/03/banner2'],
+          goodId: '8810',
+          goodImg: 'recommend/03/8810',
+          buyPrice: '360',
           cash: 9999,
-          detailImg: ['carries/14/x5-01', 'carries/14/x5-02', 'carries/14/x5-03', 'carries/14/x5-04', 'carries/14/x5-05', 'carries/14/x5-06']
+          detailImg: ['recommend/03/8810-1', 'recommend/03/8810-2', 'recommend/03/8810-3', 'recommend/03/8810-4', 'recommend/03/8810-5']
         }
       },
     ]
@@ -462,59 +462,50 @@ export const goods = [
           detailImg: ['atomization/07/bod-01', 'atomization/07/bod-02']
         }
       },
+
+
       {
-        id: '08', prod: '69', imgFile: 'atomization/08', name: '进口迷你body防狼喷雾', price: '118',
+        id: '08', prod: '60', imgFile: 'atomization/08', name: '磨砂口红款女士防狼喷雾', price: '80',
         detail: {
-          banner: ['atomization/08/banner1'],
-          goodId: 'bod',
-          goodImg: 'atomization/08/bod',
-          buyPrice: '177',
+          banner: ['female/05/banner1'],
+          goodId: 'mskh',
+          goodImg: 'female/05/mskh',
+          buyPrice: '96',
           cash: 9999,
-          detailImg: ['atomization/08/bod-01', 'atomization/08/bod-02']
+          detailImg: ['female/05/mskh-01', 'female/05/mskh-02']
         }
       },
       {
-        id: '09', prod: '69', imgFile: 'atomization/09', name: '进口迷你body防狼喷雾', price: '118',
+        id: '09', prod: '63', imgFile: 'atomization/09', name: 'RY防狼喷雾电影心花怒放女主同款', price: '108',
         detail: {
-          banner: ['atomization/09/banner1'],
-          goodId: 'bod',
-          goodImg: 'atomization/09/bod',
-          buyPrice: '177',
+          banner: ['female/07/banner1'],
+          goodId: 'RY',
+          goodImg: 'female/07/RY',
+          buyPrice: '162',
           cash: 9999,
-          detailImg: ['atomization/09/bod-01', 'atomization/09/bod-02']
+          detailImg: ['female/07/RY-01', 'female/07/RY-02']
         }
       },
       {
-        id: '10', prod: '69', imgFile: 'atomization/10', name: '进口迷你body防狼喷雾', price: '118',
+        id: '10', prod: '65', imgFile: 'atomization/10', name: '老美警用防暴防狼喷雾', price: '108',
         detail: {
           banner: ['atomization/10/banner1'],
-          goodId: 'bod',
-          goodImg: 'atomization/10/bod',
-          buyPrice: '177',
+          goodId: 'lm',
+          goodImg: 'atomization/10/lm',
+          buyPrice: '162',
           cash: 9999,
-          detailImg: ['atomization/10/bod-01', 'atomization/10/bod-02']
+          detailImg: ['atomization/10/lm-01', 'atomization/10/lm-02']
         }
       },
       {
-        id: '11', prod: '69', imgFile: 'atomization/11', name: '进口迷你body防狼喷雾', price: '118',
+        id: '11', prod: '96', imgFile: 'atomization/11', name: '女士口红款防狼喷雾', price: '68',
         detail: {
-          banner: ['atomization/11/banner1'],
-          goodId: 'bod',
-          goodImg: 'atomization/11/bod',
-          buyPrice: '177',
+          banner: ['female/08/banner1'],
+          goodId: 'khpw',
+          goodImg: 'female/08/khpw',
+          buyPrice: '102',
           cash: 9999,
-          detailImg: ['atomization/11/bod-01', 'atomization/11/bod-02']
-        }
-      },
-      {
-        id: '12', prod: '69', imgFile: 'atomization/12', name: '进口迷你body防狼喷雾', price: '118',
-        detail: {
-          banner: ['atomization/12/banner1'],
-          goodId: 'bod',
-          goodImg: 'atomization/12/bod',
-          buyPrice: '177',
-          cash: 9999,
-          detailImg: ['atomization/12/bod-01', 'atomization/12/bod-02']
+          detailImg: ['female/08/khpw-01', 'female/08/khpw-02']
         }
       },
     ]

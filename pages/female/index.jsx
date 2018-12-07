@@ -7,7 +7,7 @@ import {goods} from "../../static/API/goods";
 import less from '../../static/style/card.less'
 const {Sider, Content } = Layout
 
-export default class Home extends PureComponent {
+export default class Female extends PureComponent {
   constructor (props) {
     super(props)
   }
