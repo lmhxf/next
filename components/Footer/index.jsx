@@ -10,19 +10,21 @@ export default class Footer extends PureComponent {
   render () {
     return (
       <div className={less.footer}>
-        <Row className={less.icon} type="flex" align='middle' justify='start'>
-          <Col offset={2} span={4}>
-            <img src="../../static/img/home/ft-svr1.gif" alt="正品质量保障"/>
-          </Col>
-          <Col offset={1} span={4}>
-            <img src="../../static/img/home/ft-svr2.gif" alt="服务质量保障"/>
-          </Col>
-          <Col offset={1} span={4}>
-            <img src="../../static/img/home/ft-svr3.gif" alt="商品退换货保障"/>
-          </Col>
-          <Col offset={1} span={4}>
-            <img src="../../static/img/home/ft-svr4.gif" alt="安全支付保障"/>
-          </Col>
+        <Row className={less.iconWrap} type="flex" align='middle' justify='center'>
+          <Row className={less.icon} type="flex" align='middle' justify='start'>
+            <Col span={6}>
+              <img src="../../static/img/home/ft-svr1.gif" alt="正品质量保障"/>
+            </Col>
+            <Col span={6}>
+              <img src="../../static/img/home/ft-svr2.gif" alt="服务质量保障"/>
+            </Col>
+            <Col span={6}>
+              <img src="../../static/img/home/ft-svr3.gif" alt="商品退换货保障"/>
+            </Col>
+            <Col span={6}>
+              <img src="../../static/img/home/ft-svr4.gif" alt="安全支付保障"/>
+            </Col>
+          </Row>
         </Row>
         <Row type="flex" align='middle' justify='center'>
           <Col>

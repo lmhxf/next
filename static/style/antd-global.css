@@ -14,21 +14,13 @@
 .header .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
     border-color: #09c762;
 }
-
-.breadcrumb {
-    background-color: #f0f2f5;
-    width: 100%;
-    max-width: 1220px;
-    margin: 10px auto;
-}
-.breadcrumb a {
-    text-decoration: none;
-    color: #333;
-    transition: color .2s;
-}
 .container {
     background-color: #f0f2f5;
     width: 100%;
-    max-width: 1220px;
     margin: 0 auto;
+}
+
+
+.home_md .ant-card-bordered {
+    border: 0;
 }

@@ -93,7 +93,7 @@ export default class Home extends PureComponent {
 
   render () {
     return (
-      <div className='container'>
+      <div className='home_md'>
         <Header />
         <div className={less.home_md}>
           <Banner />

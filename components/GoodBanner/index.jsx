@@ -16,54 +16,49 @@ export default class GoodBanner extends PureComponent {
         if (data.prod === goodId) this.bannerSource = data.detail.banner
       })
     })
+
     this.state = {
-      activeBanner: this.bannerSource && this.bannerSource[0]
+      curImg:0,
+      width:0
     }
+    this.afterChange = this.afterChange.bind(this)
+    this.clickThumbnail = this.clickThumbnail.bind(this)
   }
 
-  handleClick(item) {
+  afterChange(cur){
     this.setState({
-      activeBanner: item
+      curImg: cur
+    })
+  }
+
+  clickThumbnail(to) {
+    this.el.goTo(to)
+  }
+
+  componentDidMount(){
+    this.setState({
+      width: (document.querySelector(".carouselDetail").offsetWidth - 40)/5
     })
   }
 
   render() {
     return (
-      <div className={less.goodBanner_md}>
-        {this.state.activeBanner && (
-          <div className={less.currentImg}>
-            <img src={`../../static/img/goods/${this.state.activeBanner}.jpg`} alt={this.state.activeBanner}/>
-          </div>
-        )}
-          <Carousel autoplay dots>
-            {this.bannerSource.map(item => (
-              <div
-                className={less.imgWrap}
-                onClick={v => this.handleClick(item)}
-                key={item}
-              >
-                  <img src={`../../static/img/goods/${item}.jpg`}
-                       alt={item}
-                       onLoad={() => {
-                         const event = 'resize'
-                         if (document.createEventObject){
-                           // IE浏览器支持fireEvent方法
-                           const evt = document.createEventObject()
-                           return window.fireEvent('on'+event, evt)
-                         }
-                         else{
-                           // 其他标准浏览器使用dispatchEvent方法
-                           const evt = document.createEvent( 'HTMLEvents' )
-                           evt.initEvent(event, true, true)
-                           return !window.dispatchEvent(evt)
-                         }
-                       }}
-                  />
-              </div>
-            ))}
-          </Carousel>
+      <div ref={el => this.dev = el} className={`carouselDetail ${less.goodBanner_md}`}>
+        <Carousel dots={false} autoplay={true} ref={el => this.el = el} afterChange={(cur) => this.afterChange(cur)} >
+          {this.bannerSource.map((item, index) => (
+            <div key={index} className={less.currentImg}>
+              <img src={`../../static/img/goods/${item}.jpg`} alt={item}/>
+            </div>
+          ))}
+        </Carousel>
+        <div className="thumbnail-block">
+          {this.bannerSource.map((item,index) => (
+            <div key={index} onClick={() => this.clickThumbnail(index)} className={`${index == this.state.curImg ? less.thumbnailActive : ''} ${less.imgWrap}`}>
+              <img src={`../../static/img/goods/${item}.jpg`} alt={item}/>
+            </div>
+          ))}
+        </div>
       </div>
     )
-
   }
 }

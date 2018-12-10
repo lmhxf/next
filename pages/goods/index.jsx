@@ -1,6 +1,5 @@
 import React, {PureComponent} from 'react'
-import {Row, Col, Layout} from 'antd'
-import Link from 'next/link'
+import {Row, Col} from 'antd'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import GoodBanner from '../../components/GoodBanner'
@@ -18,7 +17,6 @@ export default class Goods extends PureComponent {
         }
       })
     })
-    console.log(this.goodSource, goodId)
     this.pay = this.pay.bind(this)
   }
 
@@ -34,11 +32,11 @@ export default class Goods extends PureComponent {
     return (
       <div className={less.goodInfo}>
         <h1>{this.goodSource.name}</h1>
-        <h2>商品贷号： {this.goodSource.detail.goodId}</h2>
-        <h2>市场价： {this.goodSource.detail.buyPrice}</h2>
-        <h2>本店价： {this.goodSource.price}</h2>
-        <h2>库存： {this.goodSource.detail.cash}</h2>
-        <buttdetailon onClick={this.pay}></buttdetailon>
+        <h2>商品贷号： <em>{this.goodSource.detail.goodId}</em></h2>
+        <h2>市场价： <del>{this.goodSource.detail.buyPrice}</del></h2>
+        <h2>本店价： <strong>¥ {this.goodSource.price} 元</strong></h2>
+        <h2>库存： <em>{this.goodSource.detail.cash}</em></h2>
+        <button onClick={this.pay}>立即订购</button>
       </div>
     )
   }
@@ -48,7 +46,7 @@ export default class Goods extends PureComponent {
       <div className={less.detail}>
         <div className={less.info}>
           <h1>商品详情</h1>
-          <Row align='center' justify='middle' type='flex'>
+          <Row align='start' justify='middle' type='flex'>
             <h2>产品名称：{this.goodSource.name}</h2>
           </Row>
           <Row align='center' justify='middle' type='flex'>
@@ -84,21 +82,17 @@ export default class Goods extends PureComponent {
 
   render() {
     return (
-      <Layout>
+      <div className={less.goods_md}>
         <Header />
-        <div className='breadcrumb'>
-          <Link href='/home'>首页 > </Link>
-          <Link href='/long'>加长电棍</Link>
-        </div>
-        {this.goodSource && (<Layout className='container'>
-          <Row type='flex' align='start'>
+        <div className={less.goods}>
+          <Row className={less.goodHeader} type='flex' justify='center' align='start'>
             <Col><GoodBanner /></Col>
             <Col>{this.renderGoodInfo()}</Col>
           </Row>
           {this.renderDetail()}
-        </Layout>)}
+        </div>
         <Footer />
-      </Layout>
+      </div>
     )
   }
 }

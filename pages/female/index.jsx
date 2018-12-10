@@ -17,9 +17,9 @@ export default class Female extends PureComponent {
     return goodsRel.map(good => (
       <div className={less.goodCard}>
         {good.data.map((item, index) => (
-          <Link key={item.prod} href={`/goods/?goodId=${item.prod}`}>
+          <Link key={item.prod} href={`/goods?goodId=${item.prod}`}>
             <Card
-              className={`${less.card} ${index%3 ? '' : less.noBorder}`}
+              className={`${less.card} ${(index+1)%3 ? '' : less.noBorder}`}
               cover={
                 <div className={less.cardImg}>
                   <img
@@ -42,24 +42,20 @@ export default class Female extends PureComponent {
 
   render () {
     return (
-      <Layout>
+      <div>
         <Header />
-        <div className='breadcrumb'>
-          <Link href='/home'>首页 > </Link>
-          <Link href='/female'>女子防身</Link>
+        <div className={less.card_md}>
+          <div className={less.breadcrumb}>
+            <Link href='/home'>首页</Link>
+            <span> > </span>
+            <Link href='/female'>女子防身</Link>
+          </div>
+          <div className={less.goods}>
+            {this.renderGoods()}
+          </div>
         </div>
-        <Layout className='container'>
-          <Sider className={less.sider}>
-            <h3>女子防身</h3>
-          </Sider>
-          <Content>
-            <div className={less.goods}>
-              {this.renderGoods()}
-            </div>
-          </Content>
-        </Layout>
         <Footer />
-      </Layout>
+      </div>
     )
   }
 }
