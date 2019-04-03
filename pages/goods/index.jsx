@@ -25,7 +25,7 @@ export default class Goods extends PureComponent {
   }
 
   pay() {
-    alert('请添加微信购买')
+    alert('请添加微信17121138176购买')
   }
 
   renderGoodInfo() {
@@ -56,7 +56,7 @@ export default class Goods extends PureComponent {
         <div className={less.desc}>
           <p>
             邦盾护卫-（专业防身用品研发生产）<br/>
-            <strong>微信：yerengu688</strong><br/>
+            <strong>微信：17121138176</strong><br/>
             加微信更多防身产品朋友圈视频演示
           </p>
         </div>

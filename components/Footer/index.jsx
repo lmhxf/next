@@ -55,7 +55,7 @@ export default class Footer extends PureComponent {
           <p>服务时间：09:00-23:00</p>
           <p>
             <label htmlFor="">微信号: </label>
-            <strong>yerengu688</strong>
+            <strong>17121138176</strong>
           </p>
         </Row>
       </div>

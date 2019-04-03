@@ -46,7 +46,7 @@ export default class Header extends PureComponent {
                 />
                 <div className={headerLess.weixin}>
                   <Link href='/home'>
-                    <h1>搜索榜：加微信 yerengu688 更多防身产品视频演示</h1>
+                    <h1>搜索榜：加微信 17121138176 更多防身产品视频演示</h1>
                   </Link>
                 </div>
               </div>
